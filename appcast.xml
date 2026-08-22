@@ -12,9 +12,9 @@
       <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.3.0/Dictate-0.3.0.dmg"
-                 length="5438743"
+                 length="5438757"
                  type="application/octet-stream"
-                 sparkle:edSignature="F07RaJHIo4ZjKMpxaISvWrBpOMH28OVOqwdAvmv48/8z9X1iwSbVmIvngm/ZwG8Efpv9ZkNH2d++tymuprlZDg=="/>
+                 sparkle:edSignature="4P7Y1bJqfaw+z3fIMt+jGyAN8FDTuP9PUp4TSbgY9cxTC0yq4ovvk83K/BB5XZlNaH8ALifMMmH/S+OE538xBw=="/>
     </item>
   </channel>
 </rss>
