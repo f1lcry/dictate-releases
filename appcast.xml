@@ -6,6 +6,49 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.4.0</title>
+      <pubDate>Tue, 08 Sep 2026 14:21:56 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Meetings</h3>
+<ul>
+  <li>A second pillar next to dictation: drop a recorded meeting (far-field, several voices) into the window's Meetings section and get a speaker-labelled transcript, entirely on-device. You say how many people spoke; Whisper and speaker detection do the rest.</li>
+  <li>Read it your way: speaker turns on or off, talk time per speaker, long turns as paragraphs, rename Speaker A to a real name inline, tap any timestamp to hear that moment.</li>
+  <li>Search across every meeting with highlighted hits; export Markdown, plain text or SRT subtitles.</li>
+  <li>Summaries (Pro): with an AI provider configured — Apple Intelligence or any OpenAI-compatible server — a summary panel writes an overview, key points, action items and jump-to chapters on request. Hour-long meetings fit.</li>
+  <li>The setup sheet picks the meeting language (Auto, Russian, English) and the Whisper model per meeting, and shows the model's download size before you commit; the defaults live in Settings › Meetings.</li>
+  <li>Interrupted processing resumes where it stopped, a speaker-detection failure still delivers an unlabelled transcript, and "Reprocess" reruns a meeting through the current pipeline. Imports up to four hours long.</li>
+  <li>The meeting library is a resizable column of the window; ⌘1 / ⌘2 switch between Dictation and Meetings, ⌫ deletes the selected meeting, Space and ← / → drive playback in the transcript and the player.</li>
+</ul>
+<h3>Meeting recording (Pro)</h3>
+<ul>
+  <li>Record the meeting in Dictate — the microphone, the system audio of a Zoom / Meet / Teams call, or both — from the Meetings section, the menu bar ("Record Meeting…") or a global shortcut.</li>
+  <li>The first recording that includes system audio asks once for <strong>System Audio Recording</strong> (Privacy &amp; Security › Screen &amp; System Audio Recording). Without it the recording contains silence, and Dictate says so after a few seconds instead of failing quietly.</li>
+  <li>A floating capsule shows the timer and levels and collapses to a pill; the menu-bar icon wears a recording badge. Dictation keeps working while a meeting records.</li>
+  <li>Recordings land in the library at once with a waveform player (scrub, ±15 s, 1×/1.5×/2×) and are transcribed when you ask.</li>
+  <li>Crash-safe: audio is written to disk as it happens. After a crash the recording comes back marked Recovered and is compacted to AAC in the background; quitting mid-recording asks first, and an app update that arrives mid-recording waits for the recording to stop before relaunching.</li>
+  <li>Four-hour meetings roll over into parts automatically. An hour costs about 15 MB (one source) or 30 MB (both) on disk.</li>
+  <li>Settings › Meetings: the record shortcut, default sources, permission status with a system-audio test, default language and Whisper model, speaker models (size, download, delete) and recording storage.</li>
+  <li>When a recording cannot start, the reason shows in a banner in the Meetings section; "Upgrade to Pro…" opens the License tab directly.</li>
+</ul>
+<h3>Dictation</h3>
+<ul>
+  <li>No more phantom "Thank you." at the end of a dictation: the final decode no longer sees the room tone between your last word and the stop, and a segment that lies entirely over silence is dropped.</li>
+  <li>Buttons with a plain style now have a real hit target instead of only their label's pixels.</li>
+</ul>
+<h3>Knobs</h3>
+<ul>
+  <li><code>defaults write com.f1lcry.localvoicer meetingPartSeconds -int N</code> sets the length of one recording part before it rolls over.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.4.0/Dictate-0.4.0.dmg"
+                 length="13146556"
+                 type="application/octet-stream"
+                 sparkle:edSignature="z8Lgdu9h1Q3gBTjwhucNvu9cweriU5xHKJ7hwfA9pf3/V9jn/VP9FCzAYBVOK84F4j7vGXMzugnBbQEAxs7gCg=="/>
+    </item>
+    <item>
       <title>Dictate 0.3.0</title>
       <pubDate>Sat, 22 Aug 2026 14:21:32 GMT</pubDate>
       <sparkle:version>3</sparkle:version>
