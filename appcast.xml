@@ -6,6 +6,29 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.4.1</title>
+      <pubDate>Fri, 18 Sep 2026 13:28:14 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>AI cleanup and summaries</h3>
+<ul>
+  <li>Apple Intelligence reads 15 languages and Russian is not one of them. A Russian meeting used to fail to summarize with Apple's own wording and nothing to act on; now the panel names the language before the run and points at Settings › AI, the AI tab lists what the on-device model reads, and the sample test says when your dictation language is outside it. The same gap made AI cleanup silently do nothing on those dictations, which nothing ever mentioned.</li>
+  <li>With a server configured, a dictation whose cleanup could not run now says so: one line in the recorder capsule, gone in under two seconds. The text is pasted either way — the built-in cleanup finishes it — so this only explains why it looks the way it does. A language your provider cannot read is said once per launch, not on every dictation.</li>
+  <li>A meeting summary survives a dropped connection. The call is retried, and a part that stays unreachable is left out and named in the notes with a nudge to regenerate, instead of discarding every part already summarized. A server that never answers now says that, rather than blaming a safety filter.</li>
+</ul>
+<h3>Meetings</h3>
+<ul>
+  <li>Picking a microphone before recording now sticks. Choosing "System Default" after a meeting recorded on another device started on that older device instead, so a call recorded through a virtual audio device came back without your own voice.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.4.1/Dictate-0.4.1.dmg"
+                 length="13122716"
+                 type="application/octet-stream"
+                 sparkle:edSignature="eIJx95DeoV8Kktkx7gCkAaGaoTGQea5cXqNRIYyfXkH3VSnbUgx05vaqezLjH+7DDwx8BXsakW9b8Z0t46Q+DA=="/>
+    </item>
+    <item>
       <title>Dictate 0.4.0</title>
       <pubDate>Tue, 08 Sep 2026 14:21:56 GMT</pubDate>
       <sparkle:version>4</sparkle:version>
