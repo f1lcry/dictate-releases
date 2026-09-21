@@ -6,6 +6,24 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.4.2</title>
+      <pubDate>Mon, 21 Sep 2026 15:14:02 GMT</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>One Dictate, and permissions that stick</h3>
+<ul>
+  <li>Opening a second Dictate now hands you back the one already running. Two copies used to start side by side and fight over the hotkey, the notch HUD and the microphone.</li>
+  <li>Dictate opened straight from the downloaded disk image now offers to move itself to Applications first. macOS runs an app from the image at a new, random location every time and forgets every permission granted there — that is why the microphone and accessibility prompts came back on launch after launch.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.4.2/Dictate-0.4.2.dmg"
+                 length="13137530"
+                 type="application/octet-stream"
+                 sparkle:edSignature="a0p+5oPEP1Rbdf7ZVugel5cvBdB9xiutXKoYdukI7Wwt95t0yrzzx4QBIR6+d107lcAcJQYDY8TB4bhCCuYxCQ=="/>
+    </item>
+    <item>
       <title>Dictate 0.4.1</title>
       <pubDate>Fri, 18 Sep 2026 13:28:14 GMT</pubDate>
       <sparkle:version>5</sparkle:version>
