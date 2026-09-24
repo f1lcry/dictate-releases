@@ -6,6 +6,23 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.1</title>
+      <pubDate>Thu, 24 Sep 2026 07:31:54 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>A download that vouches for itself</h3>
+<ul>
+  <li>The disk image is now signed as well as notarized, and the app inside carries its own notarization ticket. Nothing about installing Dictate changes when you are online — but a first launch without a connection no longer stops to ask Apple whether this app is trustworthy.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.1/Dictate-0.5.1.dmg"
+                 length="13491135"
+                 type="application/octet-stream"
+                 sparkle:edSignature="tGG298VcbOocYILXr/UqNs8XOR8Z58TMP1f8vFtVD9Drc1/3lB6fze1KGmMs4E87jm6k/zJMj9zdKHuAHIIDBw=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.0</title>
       <pubDate>Thu, 24 Sep 2026 07:21:38 GMT</pubDate>
       <sparkle:version>7</sparkle:version>
