@@ -6,6 +6,25 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.0</title>
+      <pubDate>Thu, 24 Sep 2026 07:21:38 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Tell me what broke</h3>
+<ul>
+  <li><strong>Report a Problem…</strong>, in the menu bar and in Settings › General. It collects what Dictate has been doing on your Mac — screens, actions, settings, recordings and errors, with their timings — and sends it in one press, with an optional description of what went wrong.</li>
+  <li>The log it draws on is written locally all the time and uploaded never, unless you press Send. It cannot contain what you dictate, your recordings, meeting names, clipboard contents, file paths or your license key, and the whole report is shown to you before it leaves the Mac. Save to File… writes the same thing to disk instead, for sending by hand.</li>
+  <li>If Dictate ever quits without warning, the next launch knows — and, on a Mac set up for testing, offers to report it with the crash log attached.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.0/Dictate-0.5.0.dmg"
+                 length="13478975"
+                 type="application/octet-stream"
+                 sparkle:edSignature="pCuqwXLvzuXCn9SoZoE9aRY3diYde26tDsIMoSu/LrbSQSYnAeTkGFeDcmKoY94ebPCJ/v3oySX12FUJY/kABg=="/>
+    </item>
+    <item>
       <title>Dictate 0.4.2</title>
       <pubDate>Mon, 21 Sep 2026 15:14:02 GMT</pubDate>
       <sparkle:version>6</sparkle:version>
