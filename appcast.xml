@@ -6,6 +6,25 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.2</title>
+      <pubDate>Wed, 07 Oct 2026 09:45:10 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>When the microphone goes quiet</h3>
+<ul>
+  <li>Dictation could stop receiving sound after a few hours of use, and then every session ended empty without saying why. Dictate now watches the microphone while you dictate: if no sound arrives, it restarts the audio input on its own, and if that does not bring it back, it tells you so instead of pretending to record.</li>
+  <li><strong>Restart Dictate</strong>, in the menu bar and next to that message, quits and reopens the app in one click — for whatever a restart fixes that nothing else does.</li>
+  <li>Report a Problem… now records which kind of microphone was in use, sleep and wake, and how much sound each dictation actually received, so the next report of this kind says what happened.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.2/Dictate-0.5.2.dmg"
+                 length="13516603"
+                 type="application/octet-stream"
+                 sparkle:edSignature="x1bfe+AkCzhoID7GfXH/0fpJT6nzsQe/dYLXcBpqLR0FdhDIXQy1l9BaSAb2mscxYaqL7L4LA/mZGrnAbH/eAQ=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.1</title>
       <pubDate>Thu, 24 Sep 2026 07:31:54 GMT</pubDate>
       <sparkle:version>8</sparkle:version>
