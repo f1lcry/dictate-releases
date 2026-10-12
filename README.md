@@ -1,6 +1,6 @@
 # Dictate — releases
 
-[Dictate](https://github.com/f1lcry) is a fast, private dictation and
+[Dictate](https://f1lcry.com) is a fast, private dictation and
 meeting-transcription app for macOS: on-device Whisper transcription, a
 notch HUD, a global hotkey with paste-at-cursor, and speaker-labelled
 meeting transcripts. Your voice, recordings and transcripts never leave
@@ -51,17 +51,16 @@ Free: dictation in the app window and menu bar, meeting import and
 transcription. Pro (license key): meeting recording, meeting summaries, the
 global hotkey, auto-paste at the cursor, clipboard history, AI cleanup.
 
-## 0.4.0 highlights
+## What's new in 0.5
 
-- Meetings: import, speaker-labelled transcripts, talk time, search, export,
-  per-meeting language (Auto / Russian / English) and model choice,
-  summaries with Pro.
-- Meeting recording (Pro): microphone, system audio or both; a floating
-  capsule with timer and levels; crash-safe recordings that come back as
-  *Recovered* after a crash; four-hour rollover into parts; an update that
-  arrives mid-recording waits for the recording to stop.
-- Settings › Meetings: record shortcut, default sources, permission status
-  with a system-audio test, default language and model, speaker models,
-  storage.
-- Dictation: the phantom "Thank you." at the end of a dictation is gone;
-  plain buttons have proper hit targets.
+- **Report a Problem…** (0.5.0): one press sends a local activity log, which
+  can never contain what you dictate, your recordings or file paths. The whole
+  report is shown to you before it leaves the Mac.
+- **Works offline from the first launch** (0.5.1): the disk image is signed
+  and the app carries its own notarization ticket.
+- **Microphone watchdog** (0.5.2): if dictation stops receiving sound, Dictate
+  restarts the audio input itself, or tells you instead of recording silence.
+  **Restart Dictate** is one click in the menu bar.
+
+Full notes for every version are on the
+[Releases](https://github.com/f1lcry/dictate-releases/releases) page.
