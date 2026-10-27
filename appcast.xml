@@ -6,6 +6,27 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.3</title>
+      <pubDate>Tue, 27 Oct 2026 09:35:37 GMT</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Only the words you said</h3>
+<ul>
+  <li>Dictation could fill a stretch of text with words nobody said: names, your dictionary terms over and over, or a stray "Glossary:". Dictionary words were being handed to the speech model as a hint, and when it could not make out the audio it went on writing that list. They no longer go to the speech model. Dictate also catches what the model repeats on its own before it reaches your text, and checks a suspicious phrase against the audio, so nothing you actually said gets thrown away.</li>
+  <li>Long dictations get their AI cleanup again. The cleanup used to give up after the same few seconds whether you had talked for ten seconds or ten minutes, so long texts were pasted raw. It now gets more time as the text grows. The cleanup also removes anything recognition invented.</li>
+  <li>Dictionary words are now applied by the AI cleanup (Settings › AI). For a term that has to come out right with the cleanup off, add a replacement rule in Settings › Dictionary: "фимекс, фимэкс → FIMEX".</li>
+</ul>
+<h3>Tried Large v3?</h3>
+<p>We tested Large v3 on real Russian dictation for this release, and it does well: in our runs it was as accurate as the default Large v3 Turbo, and a little slower to finish. If you like how it reads, choose it in Settings › Model.</p>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.3/Dictate-0.5.3.dmg"
+                 length="13537419"
+                 type="application/octet-stream"
+                 sparkle:edSignature="MQ+XT25ij4bEyfrLDqSl2bCqz4ksfPjfO5n4tZ7qfa7+gDqyCQQt9Mm6GpXuivqVk5vNs3bsD7iaNcBD7mNeCQ=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.2</title>
       <pubDate>Wed, 07 Oct 2026 09:45:10 GMT</pubDate>
       <sparkle:version>9</sparkle:version>
