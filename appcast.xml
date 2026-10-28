@@ -6,6 +6,22 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.5</title>
+      <pubDate>Wed, 28 Oct 2026 13:48:03 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+  <li>The same fix for AI cleanup with Apple Intelligence: a dictated request like "can you write me a list of reasons why…" is now cleaned up as text instead of being answered.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.5/Dictate-0.5.5.dmg"
+                 length="13577121"
+                 type="application/octet-stream"
+                 sparkle:edSignature="ejE4EnmuSZTcGwPpF8XBK7vdKY/FdW4Zpqhk5KRa+fjildNTb/3m1aZ+7V7a7VpTmtVAZVUy9je1oFH3njY1AQ=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.4</title>
       <pubDate>Wed, 28 Oct 2026 13:40:56 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
