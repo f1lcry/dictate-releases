@@ -6,6 +6,25 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.4</title>
+      <pubDate>Wed, 28 Oct 2026 13:40:56 GMT</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>The AI cleanup tidies your words, it does not act on them</h3>
+<ul>
+  <li>When you dictated a request meant for someone else, say a prompt for a chat assistant like "make me a list of reasons why…", the AI cleanup could treat it as addressed to itself and paste its own answer instead of your words. It now knows that what you dictate is text to clean up, never a task for it.</li>
+  <li>If the cleanup still comes back with something that is clearly not what you said, Dictate does not use it: you get your own words through the built-in cleanup, and a short notice says the AI cleanup was skipped.</li>
+  <li>Clipboard history keeps your words as spoken next to any dictation the AI cleanup rewrote. Click <strong>Original</strong> on that entry to get them back.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.4/Dictate-0.5.4.dmg"
+                 length="13577353"
+                 type="application/octet-stream"
+                 sparkle:edSignature="r+1IdHHF0ZbSaO0f3GF9sdc68qzPPJplhLIT/ObB3EuDxOTkY+QkjHrxBMx8aMtAByjk7boku8uO+Chu+MzSAQ=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.3</title>
       <pubDate>Tue, 27 Oct 2026 09:35:37 GMT</pubDate>
       <sparkle:version>10</sparkle:version>
