@@ -6,6 +6,34 @@
     <description>Dictate updates</description>
     <language>en</language>
     <item>
+      <title>Dictate 0.5.6</title>
+      <pubDate>Thu, 19 Nov 2026 14:44:14 GMT</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<p>A bug-fix release for dictation, plus a second speech model to try.</p>
+<h3>AI cleanup keeps every word you said</h3>
+<ul>
+  <li>A long dictation could come back from the AI cleanup as one short sentence that you never said. Dictate now recognizes that answer and pastes your own words instead.</li>
+  <li>The AI cleanup is now verbatim by default: it fixes punctuation, capitalization, paragraphs and lists, and keeps every word you said. To drop filler words and false starts as before, pick <strong>Clean</strong> under Settings › AI › Style.</li>
+  <li>English words and names inside Russian speech come out in their usual spelling ("Claude", "user experience") instead of a Cyrillic transliteration, with no dictionary entries needed. This is not done for Apple Intelligence, which does not read Russian.</li>
+  <li>A phrase the speech model sometimes wrote over your speech is now replaced by the words you actually said, so they are no longer lost.</li>
+</ul>
+<h3>Experimental: Qwen3-ASR speech model</h3>
+<ul>
+  <li>Settings › Model now offers Qwen3-ASR (1.7B and a smaller 0.6B) next to Whisper. It writes English words and names inside Russian speech in their usual spelling more often, and transcribes faster. Whisper stays the default; switch back at any time.</li>
+  <li>The model downloads on first use (2.5 GB or 1 GB) and runs on the Mac's graphics processor, fully on the device like Whisper.</li>
+  <li>Dictate now runs on Apple silicon Macs only. Intel Macs stay on 0.5.5 and are not offered this update.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/f1lcry/dictate-releases/releases/download/v0.5.6/Dictate-0.5.6.dmg"
+                 length="16420620"
+                 type="application/octet-stream"
+                 sparkle:edSignature="8d8NZX/D7XiGLTSPC7WgrVznVMWf9j0G91ClotAKyd6vcIDmXAq2yAdHYh6ULDmz0/pDPcij50hUZJ9qhw/CBg=="/>
+    </item>
+    <item>
       <title>Dictate 0.5.5</title>
       <pubDate>Wed, 28 Oct 2026 13:48:03 GMT</pubDate>
       <sparkle:version>12</sparkle:version>
