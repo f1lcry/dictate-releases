@@ -61,6 +61,12 @@ global hotkey, auto-paste at the cursor, clipboard history, AI cleanup.
 - **Microphone watchdog** (0.5.2): if dictation stops receiving sound, Dictate
   restarts the audio input itself, or tells you instead of recording silence.
   **Restart Dictate** is one click in the menu bar.
+- **Every word kept** (0.5.6): the AI cleanup fixes punctuation and layout
+  without dropping words, writes English terms inside Russian speech in
+  Latin, and no longer swaps a long dictation for a short stock sentence.
+- **Qwen3-ASR, experimental** (0.5.6): a second speech model in Settings ›
+  Model, better at mixed Russian/English. Dictate 0.5.6 and later need
+  Apple silicon; Intel Macs stay on 0.5.5.
 
 Full notes for every version are on the
 [Releases](https://github.com/f1lcry/dictate-releases/releases) page.
